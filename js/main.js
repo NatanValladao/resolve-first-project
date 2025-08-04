@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
     
-    // Existing dropdown handling code
+    // Dropdown handling code
     if (target.classList.contains('dropdown-btn') && window.innerWidth <= 768) {
       event.preventDefault();
       const dropdown = target.closest('.dropdown');
@@ -164,4 +164,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     map.fitBounds(bounds, { padding: [50, 50] });
   }
+
 });
